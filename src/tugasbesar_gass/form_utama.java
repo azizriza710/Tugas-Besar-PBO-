@@ -37,7 +37,6 @@ public class form_utama extends javax.swing.JFrame {
         jButton4 = new javax.swing.JButton();
         jSeparator4 = new javax.swing.JToolBar.Separator();
         jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -80,8 +79,6 @@ public class form_utama extends javax.swing.JFrame {
         jButton5.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton5);
 
-        jButton6.setText("jButton6");
-
         jMenu1.setText("Aplikasi Kemahasiswaan");
 
         jMenuItem1.setText("Tentang Pembuat");
@@ -96,18 +93,12 @@ public class form_utama extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(jToolBar1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 400, Short.MAX_VALUE)
-            .add(org.jdesktop.layout.GroupLayout.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .add(jButton6)
-                .add(98, 98, 98))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(layout.createSequentialGroup()
                 .add(jToolBar1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 80, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, 93, Short.MAX_VALUE)
-                .add(jButton6)
-                .add(82, 82, 82))
+                .addContainerGap(197, Short.MAX_VALUE))
         );
 
         pack();
@@ -158,7 +149,6 @@ public class form_utama extends javax.swing.JFrame {
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
