@@ -45,14 +45,16 @@ public class frm_utama extends javax.swing.JFrame {
 
         jToolBar1.setRollover(true);
 
-        jButton1.setText("jButton1");
+        jButton1.setIcon(new javax.swing.ImageIcon("D:\\Tugas Kuliah\\Pemrograman Berorientasi Objek\\Gambar\\data mahasiswa.png")); // NOI18N
+        jButton1.setText("Data Mahasiswa");
         jButton1.setFocusable(false);
         jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(jButton1);
         jToolBar1.add(jSeparator1);
 
-        jButton2.setText("jButton2");
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tugasbesar_gass/Gambar/data matakuliah.png"))); // NOI18N
+        jButton2.setText("Data Mata Kuliah");
         jButton2.setFocusable(false);
         jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
